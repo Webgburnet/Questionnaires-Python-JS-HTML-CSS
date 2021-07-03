@@ -1,0 +1,245 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset ="utf-8">
+		<link rel="stylesheet" href="../CSS/main.css"/>
+		<title>Questionnaire bloc 1 - Fonctionnement</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="Titre"><a href="../HTML/Accueil.html">Projet du DIU - EIL pour le bloc 1</a></h1>
+		</header>
+		<script src="../JS/menu.js"></script>
+		<section>
+			<h2>Explication de fonctionnement</h2>
+			<h3> Création questionnaire par interface graphique. </h3>
+			<h4> Sous Linux </h4>
+			<h5> Option 1: Appeler l’interprète</h5>
+			<ul>
+				<li>
+					Pour Python 2: python <filename>.py
+				</li>
+				<li>
+					Pour Python 3: python3 <filename>.py
+				</li>
+			</ul>
+			<h5> Option 2: Laisser le script appeler l'interpréteur. </h5>
+			<p>
+				Assurez-vous que la première ligne de votre fichier contient #!/usr/bin/env python.
+			</p>
+			<p>
+				Rendez-le exécutable - chmod +x <filename>.py .
+			</p>
+			<p>
+				Et l'exécuter comme ./<filename>.py
+			</p>
+			<h4> Sous Windows </h4>
+			<p>
+				Installez Python 3, et installez aussi IDLE qui est fourni avec (il s'agit d'un logiciel qui vous permettra d'écrire du code Python et de l'exécuter).
+			</p>
+			<p>
+				Faites Clique Droit avec le bouton de la souris sur le fichier que vous voulez lancer. Puis aller dans Python > IDLE.
+			</p>
+			<p>
+				Une fois l'IDLE lancé, appuyer sur la touche F5 de votre clavier. 
+			</p>
+			<p>
+				Vous pouvez aussi passer par exécuter > exécuter Module ou Run > Run Module.
+			</p>
+			<h4> Explication du fonctionnement.</h4>
+			<p>
+				L'interface graphique pour la création du questionnaire en python est la suivante :
+			</p>
+			<img alt="Interface T kinter" style="border-width:0" src="../IMAGE/interface_TK.png" />
+			<p>
+				NOTE IMPORTANTE : Il est tout à fait possible de mélanger les questions à choix multiple et à choix ouvert au sein d'un même questionnaire.
+			</p>
+			<h5> Option 1 : Questions à choix multiple. </h5>
+			<img alt="Interface T kinter" style="border-width:0" src="../IMAGE/interface_TK_multiple.png" />
+			<p>
+				<strong> &#9312; </strong> A remplir par la question que vous souhaitez poser.
+			</p>
+			<p>
+				<strong>&#9313;</strong> A remplir par les réponses que vous souhaitez mettre.
+			</p>
+			<p>
+				<strong>&#9314;</strong> A cette endroit, on indique où est la bonne réponse.
+			</p>
+			<p>
+				<strong>&#9315;</strong> Bouton qui permet d'enregistrer la question.
+			</p>
+			<p>
+				<strong>&#9316;</strong> Bouton qui permet d'enregistrer le questionnaire une fois que toutes les questions ont été faites.
+			</p>
+			<p>
+				Pour créer une nouvelle question, répéter les opérations. &#9312; à &#9316;
+			</p>
+			<p>
+				<strong>&#9317;</strong> Bouton qui permet d'enregistrer le questionnaire en entier.
+			</p>
+			<h5> Option 2 : Questions ouvertes </h5>
+			<img alt="Interface T kinter" style="border-width:0" src="../IMAGE/interface_TK_ouvert.png" />
+			<p>
+				<strong> &#9312; </strong> A remplir par la question que vous souhaitez poser.
+			</p>
+			<p>
+				<strong>&#9313;</strong> A remplir par les réponses que vous souhaitez mettre.
+				<br> ATTENTION : l'ensemble des réponses doit être avec la bonne orthographe et à écrire en minuscule.
+			</p>
+			<p>
+				<strong>&#9314;</strong> Bouton qui permet d'enregistrer la question.
+			</p>
+			<p>
+				<strong>&#9315;</strong> Bouton qui permet d'enregistrer le questionnaire une fois que toutes les questions ont été faites.
+			</p>
+			<p>
+				Pour créer une nouvelle question, répéter les opérations. &#9312; à &#9315;
+			</p>
+			<p>
+				<strong>&#9316;</strong> Bouton qui permet d'enregistrer le questionnaire en entier.
+			</p>
+			<h3> Lancement d'un questionnaire sur la page web questionnaire</h3>
+			<p>
+				Afin de pouvoir répondre au questionnaire, nous allons nous servir des fichiers JSON créés par le Module Python.
+			</p>
+			<p>
+				Si vous cliquez juste sur le document html sans passer par un serveur Web, le fetch sur un fichier json local ne fonctionne pas avec tous les navigateurs et tous les OS.
+			</p>
+			<p>
+				Il peut notamment déclencher des erreurs CORS (requêtes cross-origin).
+			</p>
+			<p>
+				Il vaut mieux ouvrir le fichier. 
+			</p>
+			<p>
+				Pour ce faire, nous allons devoir émuler un server en local afin que tout fonctionne correctement et sans erreur.
+			</p>
+			<h4>Méthode sous Linux</h4>
+			<ul>
+				<li>
+					Lancer un serveur Web dans le répertoire contenant vos questions en JS, par exemple avec Python : <strong>python -m http.server</strong>
+				</li>
+				<li>
+					Un serveur sera lancé sur localhost, sur le port 8000 par défaut.
+				</li>
+				<li>
+					Le fichier web sera disponible à l'adresse http://localhost:8000/HTML/Accueil.html
+				</li>
+				<li>
+					Il n'y aura plus d'erreur CORS.
+				</li>
+			</ul>
+			<h4> Méthode sous Windows</h4>
+			<ul>
+				<li>
+					Lancer Anaconda Prompt.
+				</li>
+				<li>
+					Puis faire un cd vers le dossier xx\diu-eil-projet-bloc-1\Module Web : commande <strong> cd xx\diu-eil-projet-bloc-1\Module Web </strong>  (avec xx étant le chemin avant).
+				</li>
+				<li>
+					Puis taper la commande suivante : <strong>python -m http.server</strong>
+				</li>
+				<li>
+					Aller sur le navigateur web de votre choix (Firefox, Chrome, Edge...)
+				</li>
+				<li>
+					http://localhost:8000/HTML/Accueil.html
+				</li>
+			</ul>
+			<h4> Choix du type de de questionnaire </h4>
+			<ul>
+				<li>
+					Pour lancer le questionnaire simple, allez sur la page : http://localhost:8000/JS/Questionnaire_simple.html
+				</li>
+				<li>
+					Pour lancer le questionnaire à choix multiple, allez sur la page : http://localhost:8000/JS/Questionnaire_multiple.html
+				</li>
+				<li>
+					Pour lancer le questionnaire (avec les deux questionnaires) : http://localhost:8000/JS/Questionnaire.html
+				</li>
+				<li>
+					Pour lancer le questionnaire (test / laboratoire / expérimentation) : http://localhost:8000/JS/questions.html
+				</li>
+			</ul>
+			<h3> Changement d'un questionnaire </h3>
+			<p>
+				Pour changer les questionnaires dans les pages web, il y a deux méthodes possibles.
+			</p>
+			<h4> 1ère Méthode : Changement du nom dans le dossier JS </h4>
+			<p>
+				Il vous suffit de copier un des fichiers JSON dans le dossier JS du module Web.
+				
+				<br>Et de le renommer par ' questionnaire.json '
+
+				<br>Note : S'il y a déjà un fichier ' questionnaire.json ' existant, supprimez le.
+			<p>
+			<h4> 2ème Méthode : Changement du nom dans le fichier JS </h4>
+			<p>
+				Il vous suffit de changer le nom du fichier JSON que l'on souhaite charger sur la page HTML dans les fichiers suivants :
+			</p>
+			<ul>
+				<li>
+					`Questionnaire.js`
+				</li>
+				<li>
+					`loadQuestions.js` 
+				</li>
+				<li>
+					`Questionnaire_simple.js`  
+				</li>
+				<li>
+					`Questionnaire_multiple.js` 
+				</li>
+			</ul>
+			<p>
+				Les lignes à éditer sont à la fin des fichiers .js :
+			</p>
+			<p>
+				// Pour la méthode 2 du choix de sélection des fichiers pour le questionnaire (cf README).
+			</p>
+			<p>
+				fetch("Banque/questions.json") // A modifier par le nom du fichier JSON à charger pour le cas d'un questionnaire à choix ouvert.
+			</p>
+			<p>
+				.then(response => response.json())
+			</p>
+			<p>
+				.then(json => affiche(json.questions));
+			</p>
+			<p>
+				fetch("Banque/questions2.json") // A modifier par le nom du fichier JSON à charger pour le cas d'un questionnaire à choix multiples.
+
+			</p>
+			<p>
+				.then(response => response.json())
+			</p>
+			<p>
+				.then(json => affiche(json.questions));
+			</p>
+		</section>
+		<footer>
+			<ul>
+				<li>
+					<h6><a href="Credit.html"> Crédits </a></h6>
+				</li>
+				<li>
+					<h6> Grégoire Burnet </h6>
+				</li>
+				<li>
+					<h6> Yann Gousselot </h6>
+				</li>
+				<li>
+						<h6> Jérôme Galet </h6>
+				</li>
+				<li>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+	<script>
+	</script>
+</html >

@@ -1,0 +1,62 @@
+{
+    "questions": [
+        {
+            "enonce": "O\u00f9 se trouve la Tour Eiffel ?",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "A Londres"
+                },
+                {
+                    "fraction": 100,
+                    "text": "A Paris"
+                },
+                {
+                    "fraction": 0,
+                    "text": "A Rome"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Comment s'appelle l'ordinateur dans 2001 l'odyss\u00e9e de l'espace ?",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "IBM"
+                },
+                {
+                    "fraction": 100,
+                    "text": "HAL"
+                },
+                {
+                    "fraction": 0,
+                    "text": "GZK"
+                },
+                {
+                    "fraction": 0,
+                    "text": "JCN"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Combien font 2+2 ?",
+            "reponses": [
+                {
+                    "text": "4"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "Combien font 5*3 ?",
+            "reponses": [
+                {
+                    "text": "15"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}

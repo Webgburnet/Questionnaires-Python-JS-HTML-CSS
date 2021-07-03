@@ -1,0 +1,220 @@
+{
+    "questions": [
+        {
+            "enonce": " Le nombre 54 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": " Le nombre 55 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "110111"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": " Le nombre 110 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1101100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1101110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1100110"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 1011 vaut en d\u00e9cimal : ",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "7"
+                },
+                {
+                    "fraction": 0,
+                    "text": "9"
+                },
+                {
+                    "fraction": 0,
+                    "text": "33"
+                },
+                {
+                    "fraction": 100,
+                    "text": "11"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 10110 vaut en d\u00e9cimal : ",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "8"
+                },
+                {
+                    "fraction": 0,
+                    "text": "5"
+                },
+                {
+                    "fraction": 100,
+                    "text": "22"
+                },
+                {
+                    "fraction": 0,
+                    "text": "66"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 1000 vaut en d\u00e9cimal : ",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "8"
+                },
+                {
+                    "fraction": 0,
+                    "text": "5"
+                },
+                {
+                    "fraction": 0,
+                    "text": "22"
+                },
+                {
+                    "fraction": 0,
+                    "text": "66"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit A1 en hexad\u00e9cimal vaut en base 10\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11"
+                },
+                {
+                    "fraction": 0,
+                    "text": "17"
+                },
+                {
+                    "fraction": 0,
+                    "text": "260"
+                },
+                {
+                    "fraction": 100,
+                    "text": "161"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit A7 en hexad\u00e9cimal vaut en base 10\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "17"
+                },
+                {
+                    "fraction": 0,
+                    "text": "23"
+                },
+                {
+                    "fraction": 0,
+                    "text": "267"
+                },
+                {
+                    "fraction": 100,
+                    "text": "167"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit 1A en hexad\u00e9cimal vaut en base 10\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "170"
+                },
+                {
+                    "fraction": 0,
+                    "text": "20"
+                },
+                {
+                    "fraction": 0,
+                    "text": "170"
+                },
+                {
+                    "fraction": 100,
+                    "text": "170"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "L'addition 11 + 1001 en binaire donne : ",
+            "reponses": [
+                {
+                    "text": "1100"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "L'addition A1 + C116 en hexad\u00e9cimal donne :",
+            "reponses": [
+                {
+                    "text": "C1B7"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}

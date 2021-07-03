@@ -1,0 +1,58 @@
+{
+    "questions": [
+        {
+            "enonce": " Le nombre 54 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "110110"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": " Le nombre 55 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "110111"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": " Le nombre 110 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1110010"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1101110"
+                }
+            ],
+            "type": "multiple"
+        }
+    ]
+}

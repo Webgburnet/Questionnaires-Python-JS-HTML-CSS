@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="form.css"/>
+        <title>Questions</title>
+    </head>
+    <body>
+        <header>
+            <h1> Questionnaire </h1>
+        </header>
+        <section>
+            <form>
+                <fieldset id="quest"><br/>
+                    <legend>Questionnaire</legend>
+                </fieldset>
+            </form>
+        </section>
+        <script src="loadQuestions.js">
+			/*window.onload = function(){
+				fetch("questions.json")
+				.then(response => response.json())
+				.then(json => affiche(json.questions));
+				fetch("questions2.json")
+				.then(response => response.json())
+				.then(json => affiche(json.questions));
+			}*/
+			//Utilisation de la methode fetch...
+			requete = "http://localhost:3000/tasks";
+			fetch(requete)
+			.then( response => {
+				if (response.ok) return response.json();
+				else throw new Error('Problème ajax: '+response.status);
+			})
+			.then(listerTaches)
+			.catch(onerror);
+		</script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+{
+    "questions": [
+        {
+            "enonce": "Ou est la france",
+            "reponses": [
+                {
+                    "text": "en europe"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "quelle est la date",
+            "reponses": [
+                {
+                    "text": "29 mars"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "qui est president ?",
+            "reponses": [
+                {
+                    "text": "macron"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "qui est matheux ?",
+            "reponses": [
+                {
+                    "text": "descartes"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}

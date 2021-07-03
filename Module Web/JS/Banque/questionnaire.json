@@ -1,0 +1,664 @@
+{
+    "questions": [
+        {
+            "enonce": "Le nombre 54 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre 55 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "110111"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre 110 vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1101100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "111001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "110110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1100110"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 1011 vaut en d\u00e9cimal :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "7"
+                },
+                {
+                    "fraction": 0,
+                    "text": "9"
+                },
+                {
+                    "fraction": 0,
+                    "text": "33"
+                },
+                {
+                    "fraction": 100,
+                    "text": "11"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 10110 vaut en d\u00e9cimal :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "7"
+                },
+                {
+                    "fraction": 0,
+                    "text": "9"
+                },
+                {
+                    "fraction": 100,
+                    "text": "33"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre binaire 1000 vaut en d\u00e9cimal :",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "8"
+                },
+                {
+                    "fraction": 0,
+                    "text": "5"
+                },
+                {
+                    "fraction": 0,
+                    "text": "22"
+                },
+                {
+                    "fraction": 0,
+                    "text": "66"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit A1 en hexad\u00e9cimal vaut en base 10:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11"
+                },
+                {
+                    "fraction": 100,
+                    "text": "17"
+                },
+                {
+                    "fraction": 0,
+                    "text": "260"
+                },
+                {
+                    "fraction": 0,
+                    "text": "161"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit A7 en hexad\u00e9cimal vaut en base 10:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "17"
+                },
+                {
+                    "fraction": 0,
+                    "text": "26"
+                },
+                {
+                    "fraction": 0,
+                    "text": "267"
+                },
+                {
+                    "fraction": 100,
+                    "text": "167"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit 1A en hexad\u00e9cimal vaut en base 10:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "17"
+                },
+                {
+                    "fraction": 100,
+                    "text": "26"
+                },
+                {
+                    "fraction": 0,
+                    "text": "267"
+                },
+                {
+                    "fraction": 0,
+                    "text": "167"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "L'addition 101 + 1010 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "1111"
+                },
+                {
+                    "fraction": 0,
+                    "text": "10100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1010"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "L'addition 11 + 1010 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "1101"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1111"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "L'addition 100 + 1011 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1101"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11001"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1111"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11000"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "La soustraction 100101 - 100 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "100010"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100011"
+                },
+                {
+                    "fraction": 100,
+                    "text": "100001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110010"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "La soustraction 101101 - 1010 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "100010"
+                },
+                {
+                    "fraction": 100,
+                    "text": "100011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110010"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "La soustraction 101101 - 1011 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "100010"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "110010"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le produit 10101 x 100 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1000100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1000110"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1010100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1101001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le produit 10101 x 101 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1000100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1000110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1010100"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1101001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {        
+            "enonce": "Le quotient de 10101 par 101 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1000, le reste est 1"
+                },
+                {
+                    "fraction": 100,
+                    "text": "100, le reste est 1"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1000, le reste est 10"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100, le reste est 1"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le quotient de 10111 par 101 en binaire donne :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1000, le reste est 11"
+                },
+                {
+                    "fraction": 100,
+                    "text": "100, le reste est 11"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1000, le reste est 10"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100, le reste est 1"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit A1 en hexad\u00e9cimal vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "110011"
+                },
+                {
+                    "fraction": 0,
+                    "text": "101001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11100110"
+                },
+                {
+                    "fraction": 100,
+                    "text": "10100001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit B1 en hexad\u00e9cimal vaut en binaire\u00a0:",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11011001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1011001"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11110110"
+                },
+                {
+                    "fraction": 100,
+                    "text": "10110001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit 111100110 en binaire vaut en hexadecimal :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "B1"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1E6"
+                },
+                {
+                    "fraction": 0,
+                    "text": "B6"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1B1"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le nombre qui s\u2019\u00e9crit 11110011 en binaire vaut en hexadecimal :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "3F"
+                },
+                {
+                    "fraction": 100,
+                    "text": "F3"
+                },
+                {
+                    "fraction": 0,
+                    "text": "B6"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1B11"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Les nombres \u00e9crits en h\u00e9xad\u00e9cimal ci-dessous sont\ncons\u00e9cutifs.",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "4F et 3F"
+                },
+                {
+                    "fraction": 100,
+                    "text": "2F et 30"
+                },
+                {
+                    "fraction": 0,
+                    "text": "2E et 3F"
+                },
+                {
+                    "fraction": 0,
+                    "text": "9 et 10"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Les nombres \u00e9crits en h\u00e9xad\u00e9cimal ci-dessous sont\ncons\u00e9cutifs.",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "4F et 4E"
+                },
+                {
+                    "fraction": 0,
+                    "text": "2F et 3G"
+                },
+                {
+                    "fraction": 100,
+                    "text": "3F et 40"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1B et 2B"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Les nombres \u00e9crits en h\u00e9xad\u00e9cimal ci-dessous ont un ecart de 16.",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "4F et 4E"
+                },
+                {
+                    "fraction": 0,
+                    "text": "2F et 3G"
+                },
+                {
+                    "fraction": 0,
+                    "text": "3F et 40"
+                },
+                {
+                    "fraction": 100,
+                    "text": "1B et 2B"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le compl\u00e9ment \u00e0 2 en binaire sur 8 bits du nombre -11 est :",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "11110101"
+                },
+                {
+                    "fraction": 0,
+                    "text": "01000110"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1010100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "01101001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Le compl\u00e9ment \u00e0 2 en binaire sur 8 bits du nombre -128 est :",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "11110101"
+                },
+                {
+                    "fraction": 100,
+                    "text": "10000000"
+                },
+                {
+                    "fraction": 0,
+                    "text": "00000000"
+                },
+                {
+                    "fraction": 0,
+                    "text": "01101001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Quel est l\u2019entier relatif dont le compl\u00e9ment \u00e0 2 en binaire sur 8 bits est 10010001\u00a0?",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "145"
+                },
+                {
+                    "fraction": 0,
+                    "text": "-145"
+                },
+                {
+                    "fraction": 0,
+                    "text": "-17"
+                },
+                {
+                    "fraction": 100,
+                    "text": "-111"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Quel est l\u2019entier relatif dont le compl\u00e9ment \u00e0 2 en binaire sur 8 bits est 10010000\u00a0?",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "146"
+                },
+                {
+                    "fraction": 0,
+                    "text": "-146"
+                },
+                {
+                    "fraction": 0,
+                    "text": "-18"
+                },
+                {
+                    "fraction": 100,
+                    "text": "-112"
+                }
+            ],
+            "type": "multiple"
+        }
+    ]
+}

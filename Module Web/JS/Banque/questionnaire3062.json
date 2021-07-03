@@ -1,0 +1,85 @@
+{
+    "questions": [
+        {
+            "enonce": "Convertir de d\u00e9cimal en h\u00e9xad\u00e9cimal 185 . Utiliser des lettres majuscules si besoin.",
+            "reponses": [
+                {
+                    "text": "B9"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "Convertir de d\u00e9cimal en h\u00e9xad\u00e9cimal 320 . Utiliser des lettres majuscules si besoin.",
+            "reponses": [
+                {
+                    "text": "140"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "Convertir de d\u00e9cimal en h\u00e9xad\u00e9cimal 20 . Utiliser des lettres majuscules si besoin.",
+            "reponses": [
+                {
+                    "text": "14"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "Convertir de d\u00e9cimal en binaire 8.",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "1000"
+                },
+                {
+                    "fraction": 0,
+                    "text": "100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "1100"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Convertir de d\u00e9cimal en binaire 18.",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "100110"
+                },
+                {
+                    "fraction": 100,
+                    "text": "10010"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11001"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "Convertir de d\u00e9cimal en binaire 180.",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "10000000"
+                },
+                {
+                    "fraction": 100,
+                    "text": "10110100"
+                },
+                {
+                    "fraction": 0,
+                    "text": "11000001"
+                }
+            ],
+            "type": "multiple"
+        }
+    ]
+}

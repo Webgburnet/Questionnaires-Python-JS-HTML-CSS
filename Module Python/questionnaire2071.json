@@ -1,0 +1,66 @@
+{
+    "questions": [
+        {
+            "enonce": "quel est le nombre suivant 100?",
+            "reponses": [
+                {
+                    "fraction": 0,
+                    "text": "1"
+                },
+                {
+                    "fraction": 0,
+                    "text": "2"
+                },
+                {
+                    "fraction": 0,
+                    "text": "3"
+                },
+                {
+                    "fraction": 100,
+                    "text": "101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "quel est le nombre suivant 10 ?",
+            "reponses": [
+                {
+                    "fraction": 100,
+                    "text": "11"
+                },
+                {
+                    "fraction": 0,
+                    "text": "2"
+                },
+                {
+                    "fraction": 0,
+                    "text": "3"
+                },
+                {
+                    "fraction": 0,
+                    "text": "101"
+                }
+            ],
+            "type": "multiple"
+        },
+        {
+            "enonce": "quel est le nombre suivant 10 en h\u00e9xad\u00e9cimal ?",
+            "reponses": [
+                {
+                    "text": "11"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "quel est le nombre suivant AA en h\u00e9xad\u00e9cimal ?",
+            "reponses": [
+                {
+                    "text": "AB"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}

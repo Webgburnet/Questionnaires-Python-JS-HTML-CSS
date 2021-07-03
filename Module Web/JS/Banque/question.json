@@ -1,0 +1,67 @@
+{
+    "questions": [
+       {
+            "enonce": "Combien font 2+2 ?",
+            "reponses": [
+                {
+                    "text": "4"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "Combien font 5*3 ?",
+            "reponses": [
+                {
+                    "text": "15"
+                }
+            ],
+            "type": "ouverte"
+        },
+		{
+            "enonce": "Combien font 10*10 ?",
+            "reponses": [
+                {
+                    "text": "100"
+                }
+            ],
+            "type": "ouverte"
+        },
+		{
+            "enonce": "Combien font 5*7 ?",
+            "reponses": [
+                {
+                    "text": "35"
+                }
+            ],
+            "type": "ouverte"
+        },
+		{
+            "enonce": "Combien font 8*3 ?",
+            "reponses": [
+                {
+                    "text": "24"
+                }
+            ],
+            "type": "ouverte"
+        },
+		{
+            "enonce": "Combien font 10*0.1 ?",
+            "reponses": [
+                {
+                    "text": "1"
+                }
+            ],
+            "type": "ouverte"
+        },
+		{
+            "enonce": "Combien font 100/100 ?",
+            "reponses": [
+                {
+                    "text": "1"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}

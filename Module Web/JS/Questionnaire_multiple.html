@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../CSS/main.css"/>
+        <title>Questionnaire bloc 1 - Questionnaire</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="Titre"><a href="../HTML/Accueil.html">Projet du DIU - EIL pour le bloc 1</a></h1>
+        </header>
+		<script src="../JS/menu.js"></script>
+        <section>
+			<h2>Questionnaire</h2>
+			<p>
+				Ceci est la page contenant le questionnaire à choix multiple et le questionnnaire à choix ouvert.
+				ATTENTION : Veillez à bien respecté la bonne orthographe et à ecrire tous en minuscule.
+			</p>
+            <form>
+                <fieldset id="quest"><br/>
+                    <br>
+                    <legend>Exercices</legend>
+					<!-- <div>
+						<legend for="questionnaire">
+							<h3> Exemple de structure pour le questionnaire à choix ouvert</h3>
+					</legend>
+					</div>
+					<div>
+						<legend for="exemple">5+3 (1 points)</legend>
+						<input type="text" id="exemple">
+					</div>
+					<input type="button" value="Envoyer réponses">
+					<div>
+						<legend for="reponse">
+							<h3>Exemple de Correction pour le questionnaire à choix ouvert</h3>
+							<p>Combien font 5+3 ? 
+								<span class="Faux"> 
+									0 / 1 points.  C'est Faux.La bonne réponse était 4. 
+								</span>
+								<span class="Barre"> 
+									Vous avez répondu 5. 
+								</span>
+							</p>
+							<p> Combien font 5+3 ? 
+								<span class="Juste">
+									1 / 1 points.  C'est Juste. La bonne réponse était 15. 
+								</span>
+								<span class="Juste"> 
+									Vous avez répondu 8. 
+								</span>
+							</p>
+							<h3>Exemple de Resultats pour le questionnaire à choix ouvert</h3>
+								<p> 
+									Votre score est de 1 sur 2  
+									<progress for="file" max="2" value="1"></progress>
+								</p>
+						</legend>
+					</div> -->
+					<div>
+						<legend for="questionnaire">
+							<h3>Exemple de structure pour le questionnaire à choix multiple</h3>
+						</legend>
+					</div>
+					<div>
+						<legend for="Mutiples">Où se trouve le Louvre ? (100 points)</legend>
+						<input type="checkbox" id="exemple" value="100">
+						<span>A Paris</span>
+						<input type="checkbox" id="exemple" value="0">
+						<span>A Londres</span>
+						<input type="checkbox" id="exemple" value="0">
+						<span>A Rome</span>
+					</div>
+					<input type="button" value="Envoyer réponses">
+					<div>
+						<legend for="reponse">
+							<h3>Exemple de Correction pour le questionnaire à choix multiple</h3>
+							<p>Où se trouve le Louvre ?
+								<span class="Juste"> C'est Juste. La bonne réponse était A Paris. </span>
+								<span class="Juste"> Vous avez répondu A Paris ; . </span>
+								<span class="Juste"> 100 / 100 points. </span>
+							</p>
+							<p>Où se trouve le Louvre ?
+								<span class="Partiel"> C'est partiellement Juste. La bonne réponse était A Paris. </span>
+								<span class="Partiel"> Vous avez répondu A Londres ; A Paris ; . </span>
+								<span class="Partiel"> 50 / 100 points. </span>
+							</p>
+							<p>Où se trouve le Louvre ?
+								<span class="Error"> C'est Faux. La bonne réponse était A Paris. </span>
+								<span class="Barre"> Vous avez répondu A Londres ; A Rome ; . </span>
+								<span class="Error"> 0 / 100 points. </span>
+							</p>
+							<h3>Exemple de Resultats pour le questionnaire à choix multiple</h3>
+								<p> 
+									Votre score est de 150 sur 300  
+									<progress for="file" max="300" value="150"></progress>
+								</p>
+						</legend>
+					</div>
+                </fieldset>
+            </form>
+        </section>
+		<footer>
+			<ul>
+				<li>
+					<h6><a href="Credit.html"> Credit </a></h6>
+				</li>
+				<li>
+					<h6> Gregoire BURNET </h6>
+				</li>
+				<li>
+					<h6> Yann Gousselot </h6>
+				</li>
+				<li>
+						<h6> Jerome Galet </h6>
+				</li>
+				<li>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+						<img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+					</a>
+				</li>
+			</ul>
+		</footer>
+        <script src="Questionnaire_multiple.js">
+			/*window.onload = function(){
+				fetch("questions.json")
+				.then(response => response.json())
+				.then(json => affiche(json.questions));
+				fetch("questions2.json")
+				.then(response => response.json())
+				.then(json => affiche(json.questions));
+			}*/
+			//Utilisation de la methode fetch...
+			requete = "http://localhost:3000/tasks";
+			fetch(requete)
+			.then( response => {
+				if (response.ok) return response.json();
+				else throw new Error('Problème ajax: '+response.status);
+			})
+			.then(listerTaches)
+			.catch(onerror);
+		</script>
+    </body>
+</html>
+

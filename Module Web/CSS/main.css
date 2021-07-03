@@ -1,0 +1,159 @@
+body{
+  margin:0; 
+  padding:0;
+  background-color:#eee;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica, Verdana, sans-serif;
+	color: #1C00A1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  border-bottom: 0.07em solid #ccc;
+  letter-spacing: 0.05em;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  flex-basis: 100%;
+}
+menu{
+  /*background-color: grey;*/
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+menu ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: content;
+  justify-content: space-around;
+}
+
+section{
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+section li {
+   margin: 0.5em 0;
+}
+
+.Ressources
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.Ressources  li {
+  flex-basis : 20%;
+  flex-grow: 1;
+}
+.Ressources p {
+  display: flex;
+  justify-content: center;
+}
+
+.Ressources img{
+  width : 50%;
+}
+
+.Remerciements
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.Remerciements li{
+  flex-basis : 20%;
+  flex-grow: 1;
+}
+
+.Remerciements img{
+  width : 50%;
+}
+.Remerciements p
+{
+  display: flex;
+  justify-content: center;
+}
+
+legend {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+legend h3{
+  border: 1px solid #aaa;
+  border-radius: 1em;
+  padding: 0.1em;
+  text-align: center;
+}
+
+legend .Faux {
+  color: red;
+}
+
+legend .Juste {
+  color:green;
+}
+
+legend .Barre {
+  color: red;
+  text-decoration:line-through;
+  text-decoration-style: double;
+}
+
+legend .Partiel {
+  color: orange;
+}
+
+legend .Error {
+  color: red;
+}
+
+form{
+	background: linear-gradient(90deg, #ccc, #fff); 
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	margin: 0.5em auto 0.5em;
+	padding: 25px;
+	width: 75%;
+}
+
+footer{
+  /*background-color: grey;*/
+  flex-grow: 1;
+  margin: 1em 0 1em;
+}
+footer h6{
+    margin: 0 1em 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  margin: 0 0 0 0;
+  justify-content:  end;
+    
+}
+
+input[type=text]{
+	background: rgba(255, 255, 255, 0.9);
+	background: linear-gradient(90deg, #fff, #eee);
+	border: 0.1em solid #aaa;
+	border-radius: 3px;
+	padding: 0.25em;
+}
+input[type=button]{
+	background: rgba(255, 255, 255, 0.9);
+	background: linear-gradient(90deg, #fff, #eee);
+	border: 0.1em solid #aaa;
+	border-radius: 3px;
+	padding: 0.25em;
+}

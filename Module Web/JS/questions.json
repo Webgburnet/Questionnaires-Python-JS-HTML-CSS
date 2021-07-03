@@ -1,0 +1,22 @@
+{
+    "questions": [
+        {
+            "enonce": "2+2",
+            "reponses": [
+                {
+                    "text": "4"
+                }
+            ],
+            "type": "ouverte"
+        },
+        {
+            "enonce": "3*5",
+            "reponses": [
+                {
+                    "text": "15"
+                }
+            ],
+            "type": "ouverte"
+        }
+    ]
+}
